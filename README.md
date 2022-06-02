@@ -1,16 +1,5 @@
-# flutter_shared_preferences_example
+# flutter shared preferences demo
 
-A new Flutter project.
+An example flutter app that uses the shared preferences plugin to store persist data.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="251" alt="Screenshot 2022-06-03 at 00 00 52" src="https://user-images.githubusercontent.com/54467942/171751850-3fe1a7af-e433-4665-8fab-f61e83bd9794.png">
