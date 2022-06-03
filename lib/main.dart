@@ -103,19 +103,19 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 FloatingActionButton(
-                  onPressed: _incrementCounter,
-                  tooltip: 'Increment',
+                  onPressed: _decrementCounter,
+                  tooltip: 'Decrement',
                   child: const Icon(
-                    Icons.add,
+                    Icons.remove,
                     color: Colors.white,
                   ),
                 ),
                 const SizedBox(width: 20),
                 FloatingActionButton(
-                  onPressed: _decrementCounter,
-                  tooltip: 'Decrement',
+                  onPressed: _incrementCounter,
+                  tooltip: 'Increment',
                   child: const Icon(
-                    Icons.remove,
+                    Icons.add,
                     color: Colors.white,
                   ),
                 ),
@@ -128,13 +128,13 @@ class _HomePageState extends State<HomePage> {
                 dense: true,
                 leading: Icon(Icons.info),
                 title: Text(
-                  'Stored value will persist until reset is clicked',
+                  'Stored value will persist until Reset is clicked',
                 ),
               ),
             ),
             ElevatedButton(
               onPressed: _resetCounter,
-              child: const Text('Reset Counter'),
+              child: const Text('Reset'),
               style: ButtonStyle(
                 shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                   RoundedRectangleBorder(
